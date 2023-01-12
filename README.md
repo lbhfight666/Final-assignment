@@ -10,7 +10,7 @@
 复现步骤： 按照代码顺序依次运行即可，数据均在附件
 
 主要步骤：
-（0）库
+（0）库<br>
 import os<br>
 import numpy as np<br>
 import pandas as pd<br>
@@ -19,14 +19,14 @@ import seaborn as sns<br>
 import missingno as msno<br>
 import scipy.stats as st<br>
 import warnings<br>
-（1）数据导入
-train_data = pd.read_csv("car_train.csv", sep = " ")
-test_data = pd.read_csv("car_test.csv", sep = " ")
+（1）数据导入<br>
+train_data = pd.read_csv("car_train.csv", sep = " ")<br>
+test_data = pd.read_csv("car_test.csv", sep = " ")<br>
 （2）缺失&异常值处理
 /缺失值
-train_data['notRepairedDamage'].value_counts()
-train_data['notRepairedDamage'].replace('-', np.nan, inplace=True)
-test_data['notRepairedDamage'].replace('-', np.nan, inplace=True)
+train_data['notRepairedDamage'].value_counts()<br>
+train_data['notRepairedDamage'].replace('-', np.nan, inplace=True)<br>
+test_data['notRepairedDamage'].replace('-', np.nan, inplace=True)<br>
 
 （3）探索性数据分析
 （4）特征工程
