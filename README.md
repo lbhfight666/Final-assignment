@@ -8,16 +8,17 @@
 使用库： numpy pandas os xgboost matplotlib seaborn missingno scipy warnings sklearn 
 
 复现步骤： 按照代码顺序依次运行即可，数据均在附件
+
 主要步骤：
 （0）库
-import os
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import missingno as msno
-import scipy.stats as st
-import warnings
+import os<br>
+import numpy as np<br>
+import pandas as pd<br>
+import matplotlib.pyplot as plt<br>
+import seaborn as sns<br>
+import missingno as msno<br>
+import scipy.stats as st<br>
+import warnings<br>
 （1）数据导入
 train_data = pd.read_csv("car_train.csv", sep = " ")
 test_data = pd.read_csv("car_test.csv", sep = " ")
