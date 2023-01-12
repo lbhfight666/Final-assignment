@@ -82,8 +82,7 @@ def outliers_proc(data, col_name, scale=3): <br>
 outliers_proc(train_data, 'power', scale=3) <br>
 （3）探索性数据分析<br>
 /数字特征：power , kilometer , v0, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14<br>
-numeric_features = ['power', 'kilometer', 'v_0', 'v_1', 'v_2', 'v_3', 'v_4', 'v_5', 'v_6', <br>
-'v_7', 'v_8', 'v_9', 'v_10', 'v_11', 'v_12', 'v_13','v_14' ] <br>
+numeric_features = ['power', 'kilometer', 'v_0', 'v_1', 'v_2', 'v_3', 'v_4', 'v_5', 'v_6', 'v_7', 'v_8', 'v_9', 'v_10', 'v_11', 'v_12', 'v_13','v_14' ] <br>
 /类型特征：name , model , brand , bodyType , fuelType , gearbox , notRepairDamage , regionCode<br>
 categorical_features = ['name', 'model', 'brand', 'bodyType', 'fuelType', 'gearbox', 'notRepairedDamage','regionCode',] <br>
 numeric_features.append('price') <br>
